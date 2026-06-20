@@ -1,0 +1,18 @@
+<div class="card-product">
+                <img src="https://picsum.photos/200/300" alt="product">
+                <h2> product1 </h2>
+                <p> Price : $ 100 </p>
+                <button class="add-btn"> Add to Cart </button>
+            </div>
+            <div class="card-product">
+                <img src="https://picsum.photos/200/300" alt="product">
+                <h2> product1 </h2>
+                <p> Price : $ 100 </p>
+                <button class="add-btn"> Add to Cart </button>
+            </div>
+            <div class="card-product">
+                <img src="https://picsum.photos/200/300" alt="product">
+                <h2> product1 </h2>
+                <p> Price : $ 100 </p>
+                <button class="add-btn"> Add to Cart </button>
+            </div>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Products Store </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="workshop.css">
+</head>
+<body>
+
+    <header>
+    <a href="#" class="logo">Store Logo</a>
+        <div>
+            <button class="btn" type="button" id="cart"><i class="fa-solid fa-cart-shopping"></i> Cart <span id="cartCount"> 0 </span></button>
+            <button class="btn" type="button" onclick="Clear()">Clear</button>
+            <button class="btn" type="button" id="night"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    <div class="search-bar">
+            <input type="text" placeholder="Search products">
+            <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    
+</header>
+<div class="hero">
+        <h1 class="hero-wel"> Welcome To My Store </h1>
+    </div>
+    <main>
+        <h2>Latest Products </h2>
+        <div class="grid" id="products">
+            
+        </div>
+    </main>
+
+<footer>
+    <p>&copy; 2026 Local Store</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+<script src="workshop.js"></script>
+</body>
+</html>
